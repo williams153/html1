@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo html desde 0</title>
+</head>
+<body>
+    body
+    <h1>una cabezera h1 【=◈︿◈=】 </h1> 
+    <h2>una cabezera h2</h2>
+    <h3>unh3</h3>
+    <h4>unh4</h4>
+    <h5>unh5</h5>
+    <h6>unh6</h6>
+    <p>un parrafo</p>
+    <p>otro parrafo separado</p>
+    <!--post envia datos atraves de cabezeras no url y es posible enviar mas de 256 caracteres-->
+    <form action="/formularios" method="post">
+        <label for = "correo">Correo</label>
+        <input value="@gmail.com"  type="email" id = "correo" name = "correo" placeholder="Ingresa tu email"/> 
+        <!-- propiedad name es interpretada por el servidor como llave valor es el contenido del campo-->
+        <input type="password" id = "pass" name = "pass" placeholder="Ingresa tu contraseña"/>
+        <br>
+        <label for="comentario">Comentario</label> <br>
+        <textarea rows="10" cols="50" id="comentario" placeholder="Deja un comentario" name="comentario">Deja un comentario...</textarea>
+        <!--input type="submit"/-->
+        <button type="submit">Enviar</button> <!-- type 3 tipos submit:encia por la ruta definida en action, 
+            reset y button: se usa con JS se pueden poner imagenes button"><img src="img/.imagen.png" Boton-->
+        <button type="reset">Reset</button>
+        <button type="button">Boton</button>
+    </form>
+    <hr> <!--separador-->
+    <h2>otro h2 con un hr antes </h2>
+    <p>otro parrafo despues de h2 y con <span style="color:blueviolet">texto mucho mas largo</span> que el resto
+    <br>etiqueta br
+    </p>
+    <!-- comentario -->
+    <a href="https://ip.ideay.net.ni">ir a ideay</a> <br>
+    <img src="https://scontent.fgua3-4.fna.fbcdn.net/v/t39.30808-6/272953169_2154149908086271_165629258084846069_n.jpg?stp=cp0_dst-jpg_e15_fr_q65&_nc_cat=104&ccb=1-5&_nc_sid=85a577&efg=eyJpIjoiYiJ9&_nc_ohc=qVyq8PnpyrEAX-Q5BTj&_nc_ht=scontent.fgua3-4.fna&oh=00_AT_nc1z_mnPRM7MrLmcjL-vhocLXPaBqahEUbHSO5DzoJA&oe=62353195" alt="" width = "400""/>
+    <img src="img/sample.jpg"/> <!--IMAGEN LOCAL-->
+    <video src="https://video.fgua3-3.fna.fbcdn.net/v/t42.1790-2/275910151_3086818551529925_3362639893094871519_n.mp4?_nc_cat=105&ccb=1-5&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCJ9&_nc_ohc=XvKiMmYQPfgAX-nrYe8&_nc_rml=0&_nc_ht=video.fgua3-3.fna&oh=00_AT8w043DV2ciZipkq6AIHQViMq4LxyYxT9FZlwFUBd8nfA&oe=623133E5" width="400" controls></video>
+    <body background="https://wallpapercave.com/uwp/uwp1887749.jpeg" bgcolor="FFCECB"/>
+    <!--<body>
+        {
+            background-color: #ffdd90;
+            background-image: url("https://blog.piapro.net/wp-content/uploads/2022/03/f2203141-3.jpg")
+        }
+    </body>-->
+    
+</body>
+</html>
